@@ -1,7 +1,7 @@
 import gzip, io, os, zipfile
 
 # making everything accessible from the root of the package
-from .db import init_session, session_scope
+from .db import session_scope
 from .time import Timer
 
 
